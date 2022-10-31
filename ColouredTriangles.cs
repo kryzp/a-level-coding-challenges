@@ -82,7 +82,7 @@ namespace ColouredTriangles
 
 		public static void Main(string[] args)
 		{
-			List<Colour> initialColours = new List<Colour>() { Colour.RED, Colour.RED, Colour.GRN, Colour.BLU, Colour.RED, Colour.GRN, Colour.BLU, Colour.BLU };
+			List<Colour> initialColours = new List<Colour>();
 			
 			Console.Write("Enter the triangle: ");
 			string coloursString = Console.ReadLine() ?? "";
